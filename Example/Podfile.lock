@@ -1,0 +1,95 @@
+PODS:
+  - BaiduBCEPlayerFull (3.5.0)
+  - CocoaAsyncSocket (7.6.5)
+  - GTMBase64 (1.0.1)
+  - KeychainAccess (4.2.2)
+  - lottie-ios (4.1.3)
+  - MBProgressHUD (1.2.0)
+  - MTBDPlayer (0.1.0):
+    - MTBDPlayer/Player (= 0.1.0)
+  - MTBDPlayer/Player (0.1.0):
+    - BaiduBCEPlayerFull (~> 3.5.0)
+    - MTPower/Algorithm
+    - MTPower/Basic
+    - MTPower/Device
+    - MTPower/Extensions
+    - MTPower/HUD
+    - MTPower/Widgets
+    - SJMediaCacheServer
+    - SJUIKit/SQLite3
+    - SnapKit
+  - MTPower/Algorithm (0.2.7):
+    - GTMBase64
+  - MTPower/Basic (0.2.7)
+  - MTPower/Device (0.2.7):
+    - KeychainAccess (~> 4.2.1)
+    - MTPower/Basic
+  - MTPower/Extensions (0.2.7)
+  - MTPower/HUD (0.2.7):
+    - lottie-ios
+    - MBProgressHUD
+  - MTPower/Widgets (0.2.7):
+    - MTPower/Basic
+    - MTPower/Device
+    - MTPower/Extensions
+    - SnapKit
+  - SJMediaCacheServer (1.7.8):
+    - SJMediaCacheServer/Core (= 1.7.8)
+    - SJMediaCacheServer/KTVCocoaHTTPServer (= 1.7.8)
+    - SJUIKit/SQLite3
+  - SJMediaCacheServer/Core (1.7.8):
+    - SJMediaCacheServer/KTVCocoaHTTPServer
+    - SJUIKit/SQLite3
+  - SJMediaCacheServer/KTVCocoaHTTPServer (1.7.8):
+    - CocoaAsyncSocket
+    - SJUIKit/SQLite3
+  - SJUIKit/SQLite3 (0.0.0.59):
+    - SJUIKit/SQLite3/Core (= 0.0.0.59)
+    - SJUIKit/SQLite3/Protocol (= 0.0.0.59)
+    - YYModel
+  - SJUIKit/SQLite3/Core (0.0.0.59):
+    - SJUIKit/SQLite3/Protocol
+    - YYModel
+  - SJUIKit/SQLite3/Protocol (0.0.0.59):
+    - YYModel
+  - SnapKit (5.6.0)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - MTBDPlayer (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - BaiduBCEPlayerFull
+    - CocoaAsyncSocket
+    - GTMBase64
+    - KeychainAccess
+    - lottie-ios
+    - MBProgressHUD
+    - MTPower
+    - SJMediaCacheServer
+    - SJUIKit
+    - SnapKit
+    - YYModel
+
+EXTERNAL SOURCES:
+  MTBDPlayer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BaiduBCEPlayerFull: e8126f66bbd99722acdfbe11f1abc70c8e472499
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  GTMBase64: f0f91be06a7a20b84c8e4fee30c0430395091d82
+  KeychainAccess: c0c4f7f38f6fc7bbe58f5702e25f7bd2f65abf51
+  lottie-ios: d0954d3150061f662ed0adf96ef98d7421864c47
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MTBDPlayer: ef3617a3af39735258642e0cfa31730db8482965
+  MTPower: 4b56cb620005ab83d69b5adc3ad3ed6a4ed61015
+  SJMediaCacheServer: 95bebce42f281fccaff25a5e8284022478ff7ba5
+  SJUIKit: a40111941e408cc17d4c1c23495aa92999e814b0
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: dfa47a5afdd5d458a1bc6f4a57a09cb430ca96f2
+
+COCOAPODS: 1.12.0
